@@ -23,9 +23,9 @@ const Card = () => {
     console.log(advice)
   }
   
-  // useEffect(() => {
-  //   getAdvice()
-  // }, [])
+  useEffect(() => {
+    getAdvice()
+  }, [])
 
   return (
     <div className="font-sans flex flex-col justify-between items-center p-6 max-w-xl h-80 rounded-lg bg-bluish-grey ">
