@@ -28,7 +28,7 @@ const Card = () => {
   }, [])
 
   return (
-    <div className="font-sans flex flex-col justify-between items-center p-6 max-w-xl h-80 rounded-lg bg-bluish-grey ">
+    <div className="font-sans flex flex-col justify-between items-center p-6 max-w-xl h-80 rounded-lg bg-bluish-grey text-white">
       
       <div className="flex flex-col items-center text-center gap-4">
         <p className="text-neon-green">Advice #{data && data.slip !== undefined && String(data["slip"]["id"])}</p>
